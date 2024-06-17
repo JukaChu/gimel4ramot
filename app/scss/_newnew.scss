@@ -10,18 +10,21 @@ main {
 
 .header-top {
   width: 100%;
-  padding: 12px 0;
+  padding: 2px 0;
+  height: 80px;
 
 
 }
 
 .header-bot__cont {
   width: 100%;
+
 }
 
 .header-bot {
   width: 100%;
   background: #5A4638;
+
 
   .main-menu {
     display: flex;
@@ -41,6 +44,10 @@ main {
 
         a {
           padding: 15px;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
 
 
           font-style: normal;
@@ -826,9 +833,9 @@ main {
         height: 54px;
         border-radius: 0;
         border: 1px solid #001C20;
-        padding: 6px 36px 6px;
+        padding: 3px 36px 8px;
         margin-bottom: 45px;
-        font-size: 24px;
+        font-size: 43px;
         line-height: 1;
         background: url('../img/images/arrow-down.svg') no-repeat 30px center / 20px;
       }
@@ -1455,7 +1462,7 @@ footer .logo {
     }
   }
   .header-top {
-    padding: 14px 0;
+    padding: 2px 0;
   }
   .header-top__cont .header-top__top {
     padding-top: 0;
@@ -1553,6 +1560,9 @@ footer .logo {
 }
 
 @media screen and (max-width: 1199px) {
+  .header-bot .main-menu ul li a {
+    height: auto;
+  }
   .hp-9.finances .flex-row:nth-child(even) .text-wrap {
     padding-right: 0;
   }
@@ -1800,6 +1810,10 @@ footer .logo {
 }
 
 @media screen and (max-width: 992px) {
+  .header-top {
+    padding: 10px 0;
+    height: auto;
+  }
   .block-textual .flex-row {
     flex-direction: column;
     align-items: flex-start;
@@ -2032,6 +2046,7 @@ footer .logo {
     padding: 0;
   }
   .project-select-section .section-content .section-content__wrap .select-wrapper select {
+    font-size: 24px;
     margin-bottom: 20px;
   }
   .hp-4 .icon-wrap {
